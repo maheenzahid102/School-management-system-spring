@@ -42,7 +42,6 @@ public class Jwtutil {
 
     // Extract any claim from token
     public <T> T extractClaim(String token, Function<Claims, T> claimsResolver) {
-        final Claims claims = extractAllClaims(token);
         return claimsResolver.apply(claims);
     }
 
@@ -60,3 +59,4 @@ public class Jwtutil {
     }
 }
 
+final Claims claims = extractAllClaims(token);
