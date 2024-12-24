@@ -1,0 +1,51 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    background-color: black; /* Set the background to black */
+    color: white; /* Set the text color to white */
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 16px;
+    color: white; /* Ensure the brand text is also white */
+}
+
+.navbar a {
+    color: white; /* Ensure all links in the navbar are white */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 16px; /* Add spacing between links */
+}
+
+.navbar a:hover {
+    color: lightgray; /* Optional: Add a hover effect */
+}
+
+.spacer {
+    flex: 1;
+}
+
+.navbar button {
+    background-color: black; /* Match the navbar background */
+    color: white; /* Set button text to white */
+    border: none; /* Remove default button border */
+    padding: 8px 16px; /* Add padding for better button look */
+    text-transform: uppercase; /* Match existing styling */
+    cursor: pointer; /* Add pointer cursor for buttons */
+}
+
+.navbar button:hover {
+    color: lightgray; /* Optional: Add hover effect */
+}
+
+button.active {
+    font-weight: bold;
+    color: yellow; /* Highlight the active button */
+}
+
+.custom-toolbar {
+    background-color: #ff0000;
+}
